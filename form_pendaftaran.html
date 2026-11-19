@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form_pendaftaran</title>
+</head>
+<body>
+    <h2>Form Pendaftaran </h2>
+     <form>
+        <fieldset>
+            <legend>Pendaftaran Siswa</legend>
+
+     <label for="nama lengkap">Nama Lengkap:</label>
+      <input type="text" id="nama lengkap" name="nama lengkap" placeholder="Masukkan nama lengkap" required><br><br>
+
+    <label for="NIS">NIS:</label>
+      <input type="text" id="NIS" name="NIS" placeholder="Masukkan NIS" required><br><br>
+
+     <label>Jenis Kelamin:</label>
+        <input type="radio" id="jk_l" name="gender" value="Laki Laki" required>
+        <label for="jk_l">Laki-laki</label>
+        <input type="radio" id="jk_p" name="gender" value="perempuan">
+        <label for="jk_p">perempuan</label><br><br>
+
+    <label for="tanggal lahir">Tanggal Lahir</label>
+     <input type="date" name="tgl" /><br><br>
+
+     <label for="jurusan">Jurusan</label><br>
+        <select id="jurusan" name="jurusan" required>
+        <option vaule="">--pilih jurusan--</option>
+        <option value="RPL">Rekayasa Perangkat Lunak(RPL)</option>
+        <option value="PPLG">Pengembangan Perangkat Lunak dan Gim(PPLG)</option>
+        <option vaule="TKJ">Teknik Komputer & Jaringan(TKJ)</option>
+        </select><br><br>
+
+      <label for="alamat">Alamat:</label><br>
+            <textarea id="alamat" nama="alamat" rows="4" cols="40" placeholder="Masukkan alamat lengkap" required></textarea><br><br>
+
+    <label for="foto" >Foto:</label>
+        <input type="file" name="file" /><br><br>
+
+        <input type="checkbox" id="Saya menyetujui" name="Saya menyetujui[]" value="Saya menyetujui data yang saya masukkan">
+       <label for="Saya menyetujui data yang saya masukkan">Saya menyetujui data yang saya masukkan</label><br><br>
+
+       <button type="submit"><a href="../TUGAS5/1-100.html">Daftar</a></button>     <button type="reset">Reset</button> 
+
+        </fieldset>
+
+
+</body>
+</html>
